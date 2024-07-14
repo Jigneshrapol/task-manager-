@@ -1,4 +1,4 @@
-const { createtask, fetchalltask, UpadteById, DeleteById } = require("../Controllers/TAskController");
+const { createtask, fetchalltask, UpadteById, DeleteById } = require("../Controllers/TaskController");
 
 const TaskRoute=require("express").Router();
 
